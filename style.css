@@ -13,5 +13,30 @@ p {
   font-size: 18px;
   font-family: 'HirakakuProN-W6';
 }
-
-/*ここからcssをかいてください*/
+.member{
+  width:90%;
+  margin:0 auto;
+}
+.member_top{
+  float:left;
+}
+.member_bottom{
+  float:left;
+}
+.title{
+  padding-top: 25px;
+}
+.member_main{
+  width:95%;
+  margin: 0 auto;
+  padding:50px 0px 50px 0px;
+}
+.profile{
+  width:198px;
+  margin: 0 auto;
+  padding: 0 50px 0px 50px;
+  float:left;
+}
+.footer{
+  font-size:18px;
+}
