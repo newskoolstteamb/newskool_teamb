@@ -16,7 +16,11 @@ p {
 
 /*ここからcssをかいてください*/
 .information_image img{
-  box-shadow: 2px 2px 4px gray;
+  height: 465px;
+  width: 655px;
+  margin-top: 5%;
+  margin-left: 3%;
+  box-shadow: 4px 4px 8px gray;
 }
 
 li {
