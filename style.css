@@ -15,3 +15,28 @@ p {
 }
 
 /*ここからcssをかいてください*/
+.business_img {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 100px;
+
+}
+
+.business_img_section{
+  margin: 0 auto;
+  float: left;
+  width: 33.333333%;
+  width : calc(100% / 3) ;
+  text-align: center;
+
+}
+
+.business_img_section img {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.headline {
+  font-size: 18px;
+  margin-top: 20px;
+}
