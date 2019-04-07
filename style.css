@@ -40,3 +40,13 @@ p {
   font-size: 18px;
   margin-top: 20px;
 }
+
+@media screen and (max-width:840px){
+.business_img_section{
+  width: 100%;
+  margin-bottom: 60px;
+}
+.business_img_section img {
+  width: 45%;
+}
+}
