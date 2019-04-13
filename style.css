@@ -13,30 +13,56 @@ p {
   font-size: 18px;
   font-family: 'HirakakuProN-W6';
 }
+body{
+  height: 1080px;
+}
 .member{
-  width:90%;
+  width:95%;
   margin:0 auto;
-}
-.member_top{
-  float:left;
-}
-.member_bottom{
-  float:left;
 }
 .title{
   padding-top: 25px;
 }
+.member_top {
+  width: 100%;
+  padding-top: 90px;
+  text-align: center;
+}
+.member_bottom {
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+}
 .member_main{
-  width:95%;
-  margin: 0 auto;
-  padding:50px 0px 50px 0px;
+  width:100%;
 }
 .profile{
   width:198px;
-  margin: 0 auto;
-  padding: 0 50px 0px 50px;
-  float:left;
+  padding: 0 90px 0px 90px;
+  display: inline-block;
 }
-.footer{
-  font-size:18px;
+.profile p{
+  padding-top: 30px;
+  text-align: center;
+}
+.member_img{
+  width:198px;
+}
+
+@media screen and (max-width:1600px) {
+  .profile{
+  padding: 0 40px 0px 40px;
+  }
+}
+@media screen and (max-width:375px) {
+  .profile{
+  padding: 0 10px 0px 10px;
+  width:129.27px;
+  }
+  .member_img{
+    width:129.27px;
+  }
+  .title{
+    text-align: center;
+  }
 }
