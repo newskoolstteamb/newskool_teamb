@@ -38,7 +38,7 @@ body{
 }
 .profile{
   width:198px;
-  padding: 0 90px 0px 90px;
+  padding: 0 5% 0px 5%;
   display: inline-block;
 }
 .profile p{
@@ -49,14 +49,38 @@ body{
   width:198px;
 }
 
-@media screen and (max-width:1600px) {
+@media screen and (max-width:1417px) {
   .profile{
-  padding: 0 40px 0px 40px;
+  padding: 0 3% 0px 3%;
   }
 }
-@media screen and (max-width:375px) {
+@media screen and (max-width:1120px) {
   .profile{
-  padding: 0 10px 0px 10px;
+  width:160px;
+  padding: 0 2% 0px 2%;
+  }
+  .member_img{
+    width:160px;
+  }
+@media screen and (max-width:821px) {
+  .profile{
+  width:130px;
+  padding: 0 2% 0px 2%;
+  }
+  .member_img{
+    width:130px;
+  }
+  @media screen and (max-width:671px) {
+    .profile{
+    width:130px;
+    padding: 0 7% 0px 7%;
+    }
+    .member_img{
+      width:130px;
+    }
+@media screen and (max-width:387px) {
+  .profile{
+  padding: 0 2% 0px 2%;
   width:129.27px;
   }
   .member_img{
