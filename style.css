@@ -167,3 +167,19 @@ dd {
   margin-left: 14%;
   margin-top: 2%;
 }
+
+@media screen and (max-width:840px) {
+  h2 {
+    text-align: center;
+  }
+  dt{
+    width: 100%;
+    text-align: center;
+  }
+
+  dd {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  }
+}
