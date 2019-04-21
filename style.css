@@ -3,6 +3,133 @@
   margin: 0;
 }
 
+header {
+  height: 170px;
+  border-bottom: solid 3px #ED5B33;
+}
+
+.rogo {
+  display: inline-block;
+  line-height: 170px;
+  margin-left: 30px;
+}
+
+.rogo_img {
+  height: 75px;
+  vertical-align: middle;
+}
+
+.rogo_img:hover {
+  opacity: 0.5;
+}
+
+.link {
+  float: right;
+  list-style: none;
+}
+
+.link li {
+  display: inline-block;
+  float: left;
+  line-height: 170px;
+}
+
+.link li:hover {
+  opacity: 0.5;
+}
+
+.link li a {
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  margin-right: 30px;
+}
+
+.drawr {
+  display:none;
+}
+
+
+@media screen and (max-width:840px) {
+  header {
+    height:70px;
+    border-top:solid 3px #ED5B33;
+    border-top: none;
+  }
+
+  .rogo {
+    line-height: 70px;
+  }
+
+  .rogo img {
+    height:40px;
+  }
+
+  .link {
+    display: none;
+  }
+  .btn {
+      background-image: url("image/home/sp//hamburger_menu.png");
+      background-size: cover;
+      display: block;
+      width:30px;
+      height: 30px;
+      position: absolute;
+      top:20px;
+      right:20px;
+      cursor: pointer;
+      z-index: 200;
+  }
+
+  .peke {
+      background-image: url("image/home/sp/close.png");
+      background-size: contain;
+  }
+  .drawr {
+      display: none;
+      background-color:#ED5B33;
+      position: absolute;
+      top: 0px;
+      right:0;
+      width:200px;
+      padding:70px 0 0px 10px;
+      z-index: 100;
+  }
+  #menu li {
+      width:200px;
+      list-style: none;
+      margin-bottom: 20px;
+  }
+  #menu li a {
+      color:#fff;
+      display: block;
+      padding: 15px;
+      text-decoration: none;
+      font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+      font-size: 18px;
+    }
+
+  }
+
+
+footer {
+  border-bottom:solid 3px #ED5B33;
+  width: 100%;
+}
+
+footer h1 {
+
+  font-size: 18px;
+  text-align: center;
+  vertical-align: baseline;
+  width: 150px;
+  margin: auto;
+}
+
+
 .title {
   font-size: 32px;
   font-family: 'HirakakuProN-W6';
@@ -89,4 +216,40 @@ body{
   .title{
     text-align: center;
   }
+/*ここからcssをかいてください*/
+.business_img {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 100px;
+  height: 350px;
+
+}
+
+.business_img_section{
+  margin: 0 auto;
+  float: left;
+  width: 33.333333%;
+  width : calc(100% / 3) ;
+  text-align: center;
+
+}
+
+.business_img_section img {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.headline {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width:840px){
+.business_img_section{
+  width: 100%;
+  margin-bottom: 60px;
+}
+.business_img_section img {
+  width: 45%;
+}
 }
