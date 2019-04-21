@@ -189,6 +189,7 @@ body{
   .member_img{
     width:160px;
   }
+}
 @media screen and (max-width:821px) {
   .profile{
   width:130px;
@@ -197,6 +198,7 @@ body{
   .member_img{
     width:130px;
   }
+}
   @media screen and (max-width:671px) {
     .profile{
     width:130px;
@@ -205,6 +207,7 @@ body{
     .member_img{
       width:130px;
     }
+  }
 @media screen and (max-width:387px) {
   .profile{
   padding: 0 2% 0px 2%;
@@ -216,7 +219,8 @@ body{
   .title{
     text-align: center;
   }
-/*ここからcssをかいてください*/
+}
+
 .business_img {
   width: 75%;
   margin: 0 auto;
