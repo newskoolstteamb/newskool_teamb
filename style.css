@@ -42,7 +42,8 @@ header {
   text-decoration: none;
   display: inline-block;
   color: black;
-  font-size: 18px;
+  font-size: 16px; master
+  font-size: 16px;
   font-weight: 600;
   text-align: left;
   margin-right: 30px;
@@ -140,6 +141,7 @@ p {
   font-size: 24px;
   font-family: 'HirakakuProN-W6';
 }
+
 /*ここからcssをかいてください*/
 h2 {
   font-size: 32px;
@@ -182,4 +184,127 @@ dd {
     text-align: center;
     margin: auto;
   }
+=======
+body{
+  height: 1080px;
+}
+.member{
+  width:95%;
+  margin:0 auto;
+}
+.title{
+  padding-top: 25px;
+}
+.member_top {
+  width: 100%;
+  padding-top: 90px;
+  text-align: center;
+}
+.member_bottom {
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+}
+.member_main{
+  width:100%;
+}
+.profile{
+  width:198px;
+  padding: 0 5% 0px 5%;
+  display: inline-block;
+}
+.profile p{
+  padding-top: 30px;
+  text-align: center;
+}
+.member_img{
+  width:198px;
+}
+
+@media screen and (max-width:1417px) {
+  .profile{
+  padding: 0 3% 0px 3%;
+  }
+}
+@media screen and (max-width:1120px) {
+  .profile{
+  width:160px;
+  padding: 0 2% 0px 2%;
+  }
+  .member_img{
+    width:160px;
+  }
+}
+@media screen and (max-width:821px) {
+  .profile{
+  width:130px;
+  padding: 0 2% 0px 2%;
+  }
+  .member_img{
+    width:130px;
+  }
+}
+  @media screen and (max-width:671px) {
+    .profile{
+    width:130px;
+    padding: 0 7% 0px 7%;
+    }
+    .member_img{
+      width:130px;
+    }
+  }
+@media screen and (max-width:387px) {
+  .profile{
+  padding: 0 2% 0px 2%;
+  width:129.27px;
+  }
+  .member_img{
+    width:129.27px;
+  }
+  .title{
+    text-align: center;
+  }
+}
+
+.business_img {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 100px;
+  height: 350px;
+
+}
+
+
+/*ここからcssをかいてください*/
+
+.service_wrapper {
+  display: inline-block;
+  padding-top: 39px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.service_content {
+  display: inline-block;
+  text-align: center;
+}
+
+.service_content {
+  margin: 0 3.2vw;
+}
+
+.service_content img {
+  margin-bottom: 65px;
+}
+
+.service_body  {
+  padding: 35px 1.5% 42px 1.5%;
+  width: 339px;
+  border: solid #ED5B33 5px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.24);
+}
+
+.service_body_title {
+  padding-bottom: 70px;
 }
