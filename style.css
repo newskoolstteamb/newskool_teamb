@@ -42,7 +42,6 @@ header {
   text-decoration: none;
   display: inline-block;
   color: black;
-  font-size: 16px; master
   font-size: 16px;
   font-weight: 600;
   text-align: left;
@@ -138,53 +137,9 @@ footer h1 {
 }
 
 p {
-  font-size: 24px;
-  font-family: 'HirakakuProN-W6';
-}
-
-/*ここからcssをかいてください*/
-h2 {
-  font-size: 32px;
-  font-family: 'HirakakuProN-W6';
-  margin-left: 30px;
-}
-
-dl {
-  font-family: 'YuGothic';
-}
-
-.QA {
-  color: #ED5B33;
-}
-
-dt {
-  font-size: 56px;
-  margin-left: 7%;
-  margin-top: 2%;
-  font-weight: bold;
-}
-
-dd {
   font-size: 18px;
-  margin-left: 14%;
-  margin-top: 2%;
+  font-family: 'HirakakuProN-W6';
 }
-
-@media screen and (max-width:840px) {
-  h2 {
-    text-align: center;
-  }
-  dt{
-    width: 100%;
-    text-align: center;
-  }
-
-  dd {
-    width: 100%;
-    text-align: center;
-    margin: auto;
-  }
-=======
 body{
   height: 1080px;
 }
