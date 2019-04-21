@@ -228,7 +228,6 @@ body{
   height: 350px;
 
 }
-
 .business_img_section{
   margin: 0 auto;
   float: left;
@@ -256,4 +255,40 @@ body{
 .business_img_section img {
   width: 45%;
 }
+}
+
+
+
+/*ここからcssをかいてください*/
+
+.service_wrapper {
+  display: inline-block;
+  padding-top: 39px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.service_content {
+  display: inline-block;
+  text-align: center;
+}
+
+.service_content {
+  margin: 0 3.2vw;
+}
+
+.service_content img {
+  margin-bottom: 65px;
+}
+
+.service_body  {
+  padding: 35px 1.5% 42px 1.5%;
+  width: 339px;
+  border: solid #ED5B33 5px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.24);
+}
+
+.service_body_title {
+  padding-bottom: 70px;
 }
