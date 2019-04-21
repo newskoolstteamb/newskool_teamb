@@ -260,6 +260,62 @@ body{
 
 
 /*ここからcssをかいてください*/
+.information_image img{
+  height: 465px;
+  width: 655px;
+  margin-top: 5%;
+  margin-left: 3%;
+  box-shadow: 4px 4px 8px gray;
+  display: inline-block;
+  float: left;
+
+}
+
+.information_listbox {
+  display:inline-block;
+  margin-top: 15%;
+  margin-right: 3%;
+  float: right;
+  width: 500px;
+  height: 320px;
+
+}
+
+
+.information_list {
+ margin-bottom: 20px;
+ border: solid thin;
+}
+
+
+.information_list_left {
+display: inline-block;
+}
+
+
+.information_list_right {
+ display: inline-block;
+ padding-left: 25%;
+}
+span {
+  display: inline-block;
+  width: 10em;
+}
+
+@media screen and (max-width:840px){
+  .title{
+    text-align: center;
+  }
+  .information_image img{
+    width: 100%;
+    text-align: center;
+  }
+  .information_listbox{
+   width: 100%;
+   text-align: center;
+   margin-right: 3%;
+   margin-right: 3%;
+  }
 
 .service_wrapper {
   display: inline-block;
