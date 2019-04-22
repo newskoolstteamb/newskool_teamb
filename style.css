@@ -316,7 +316,8 @@ span {
    margin-right: 3%;
    margin-right: 3%;
   }
-}
+
+
 .service_wrapper {
   display: inline-block;
   padding-top: 39px;
@@ -347,4 +348,47 @@ span {
 
 .service_body_title {
   padding-bottom: 70px;
+}
+
+h2 {
+  font-size: 32px;
+  font-family: 'HirakakuProN-W6';
+  margin-left: 30px;
+}
+
+dl {
+  font-family: 'YuGothic';
+}
+
+.QA {
+  color: #ED5B33;
+}
+
+dt {
+  font-size: 56px;
+  margin-left: 7%;
+  margin-top: 2%;
+  font-weight: bold;
+}
+
+dd {
+  font-size: 18px;
+  margin-left: 14%;
+  margin-top: 2%;
+}
+
+@media screen and (max-width:840px) {
+  h2 {
+    text-align: center;
+  }
+  dt{
+    width: 100%;
+    text-align: center;
+  }
+
+  dd {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  }
 }
