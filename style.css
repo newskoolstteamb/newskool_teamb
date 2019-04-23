@@ -63,12 +63,17 @@ span {
   }
   .information_image img{
     width: 100%;
+    height: auto;
     text-align: center;
   }
   .information_listbox{
-   width: 100%;
+   width: 90%;
    text-align: center;
-   margin-right: 3%;
-   margin-right: 3%;
+   margin-right: 5%;
+   margin-left: 5%;
+  }
+  .information_list span:last-child{
+    font-size: 12px;
+    font-family: 'Hiragino Kaku Gothic ProN';
   }
 }
