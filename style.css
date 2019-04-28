@@ -120,6 +120,7 @@ footer {
 }
 
 footer h1 {
+  padding-top: 20px;
 
   font-size: 18px;
   text-align: center;
@@ -139,9 +140,7 @@ p {
   font-size: 18px;
   font-family: 'HirakakuProN-W6';
 }
-body{
-  height: 1080px;
-}
+
 .member{
   width:95%;
   margin:0 auto;
@@ -220,6 +219,9 @@ body{
 
 
 /*ここからcssをかいてください*/
+.container {
+  height:600px;
+}
 .information_image img{
   height: 465px;
   width: 655px;
@@ -262,15 +264,25 @@ span {
   width: 10em;
 }
 
+@media screen and (max-width:1232px) {
+  .container {
+    height: 1000px;
+  }
+}
+
 @media screen and (max-width:840px){
   .title{
     text-align: center;
   }
+  .container {
+    height: 600px;
+  }
   .information_image img{
-    width: 100%;
+    width: 90%;
     height:auto;
     text-align: center;
-    margin-left: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
   .information_listbox{
    width: 90%;
