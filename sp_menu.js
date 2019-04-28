@@ -6,7 +6,7 @@ $(function($) {
       if($('.drawr').is(":animated")){
         return false;
       }else{
-        $('.drawr').animate({height:'toggle'}); //animateで表示・非表示
+        $('.drawr').animate({width:'toggle'}); //animateで表示・非表示
         $(this).toggleClass('peke'); //toggleでクラス追加・削除
         return false;
       }
