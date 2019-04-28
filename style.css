@@ -317,6 +317,7 @@ span {
   padding-bottom: 70px;
 }
 
+/*ここからcssをかいてください*/
 h2 {
   font-size: 32px;
   font-family: 'HirakakuProN-W6';
@@ -325,10 +326,12 @@ h2 {
 
 dl {
   font-family: 'YuGothic';
+  padding-bottom:150px;
 }
 
 .QA {
   color: #ED5B33;
+  width: 5%;
 }
 
 dt {
@@ -340,22 +343,26 @@ dt {
 
 dd {
   font-size: 18px;
-  margin-left: 14%;
+  margin-left: 11.5%;
   margin-top: 2%;
-}
+  text-align: center;
+  width: 80%;
+  font-weight: bold;
+  }
 
 @media screen and (max-width:840px) {
   h2 {
     text-align: center;
   }
   dt{
-    width: 100%;
+    width: 90%;
     text-align: center;
+    margin-left: 5%;
   }
 
   dd {
-    width: 100%;
+    width: 47%;
     text-align: center;
-    margin: auto;
+    margin-left: 27%;
   }
 }
