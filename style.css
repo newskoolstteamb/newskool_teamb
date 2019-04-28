@@ -163,7 +163,8 @@ p {
  display: inline-block;
 }
 .member_img{
- width:100%;
+ width:60.65%;
+ height: auto;
 }
 .profile p{
   padding-top: 30px;
