@@ -347,6 +347,7 @@ dd {
   margin-top: 2%;
   text-align: center;
   width: 80%;
+  font-weight: bold;
   }
 
 @media screen and (max-width:840px) {
