@@ -149,6 +149,7 @@ h2 {
 
 dl {
   font-family: 'YuGothic';
+  padding-bottom:150px;
 }
 
 .QA {
@@ -164,10 +165,10 @@ dt {
 
 dd {
   font-size: 18px;
-  margin-left: 14%;
+  margin-left: 11.5%;
   margin-top: 2%;
-  text-align: justify;
-  text-justify: inter-ideograph;
+  text-align: center;
+  width: 80%;
   }
 
 @media screen and (max-width:840px) {
@@ -175,13 +176,14 @@ dd {
     text-align: center;
   }
   dt{
-    width: 100%;
+    width: 90%;
     text-align: center;
+    margin-left: 5%;
   }
 
   dd {
-    width: 100%;
+    width: 47%;
     text-align: center;
-    margin: auto;
+    margin-left: 27%;
   }
 }
