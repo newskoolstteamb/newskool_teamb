@@ -139,12 +139,10 @@ p {
   font-size: 18px;
   font-family: 'HirakakuProN-W6';
 }
-body{
-  height: 1080px;
-}
 .member{
   width:95%;
   margin:0 auto;
+  padding-bottom: 100px;
 }
 .title{
   padding-top: 25px;
