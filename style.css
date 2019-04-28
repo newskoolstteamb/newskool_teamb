@@ -166,7 +166,9 @@ dd {
   font-size: 18px;
   margin-left: 14%;
   margin-top: 2%;
-}
+  text-align: justify;
+  text-justify: inter-ideograph;
+  }
 
 @media screen and (max-width:840px) {
   h2 {
