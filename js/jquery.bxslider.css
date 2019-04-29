@@ -60,21 +60,18 @@ ul.bxslider {
   padding-top: 20px;
 }
 .bx-wrapper .bx-pager.bx-default-pager a {
-  background: #666;
+  background-image: url(../image/home/slide_show/dot.jpg);
+  background-size: cover;
   text-indent: -9999px;
   display: block;
   width: 10px;
   height: 10px;
   margin: 0 5px;
   outline: 0;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
 }
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
-.bx-wrapper .bx-pager.bx-default-pager a.active,
-.bx-wrapper .bx-pager.bx-default-pager a:focus {
-  background: #000;
+.bx-wrapper .bx-pager.bx-default-pager a.active{
+  background-image: url(../image/home/slide_show/dot_select.jpg);
 }
 .bx-wrapper .bx-pager-item,
 .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
