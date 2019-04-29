@@ -172,15 +172,17 @@ p {
   padding-top: 30px;
   text-align: center;
 }
+
 @media screen and (max-width:840px) {
- .profile{
- width:30%;
- padding: 0 5% 0px 5%;
- }
- .member_img{
-   width:100%;
- }
+.profile{
+   width:30%;
+   padding: 0 5% 0px 5%;
 }
+.member_img{
+   width:100%;
+}
+}
+
 
 .business_img {
   width: 75%;
