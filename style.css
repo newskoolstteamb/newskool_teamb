@@ -44,6 +44,9 @@ p {
   box-shadow: 10px 10px 10px rgba(0,0,0,0.24);
 }
 
+.service_body p {
+}
+
 .service_body_title {
   padding-bottom: 70px;
 }
