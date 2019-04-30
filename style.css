@@ -40,7 +40,6 @@ header {
 
 .link li a {
   text-decoration: none;
-  display: inline-block;
   color: black;
   font-size: 16px;
   font-weight: 600;
@@ -263,9 +262,10 @@ display: inline-block;
  display: inline-block;
  padding-left: 25%;
 }
-.info_span{
+span{
   display: inline-block;
   width: 10em;
+  padding-left: 3%;
 }
 
 @media screen and (max-width:1232px) {
@@ -277,6 +277,7 @@ display: inline-block;
 @media screen and (max-width:840px){
   .title{
     text-align: center;
+    margin: 0;
   }
   .container {
     height: 600px;
@@ -290,13 +291,16 @@ display: inline-block;
   }
   .information_listbox{
    width: 90%;
-   text-align: center;
    margin-right: 5%;
-   margin-right: 5%;
+   margin-left: 5%;
+  }
+  .information_list span:first-child{
+    width: 7em;
+    padding-left: 3%;
   }
   .information_list span:last-child {
     font-size: 12px;
-
+    width: 10em;
   }
 }
 
@@ -313,6 +317,11 @@ display: inline-block;
 .service_content {
   display: inline-block;
   text-align: center;
+  width: 25%;
+  max-width: 349px;
+}
+
+.service_content:nth-child(2) {
   margin: 0 60px;
 }
 
@@ -323,16 +332,19 @@ display: inline-block;
 }
 
 .service_body  {
-  padding: 35px 20px 42px 20px;
+  padding: 35px 0px 42px 0px;
   border: solid #ED5B33 5px;
   box-shadow: 10px 10px 10px rgba(0,0,0,0.24);
-}
-
-.service_body p {
+  margin: 0 auto;
 }
 
 .service_body_title {
   padding-bottom: 70px;
+}
+
+.service_body_text {
+  max-width: 85%;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 840px) {
@@ -345,8 +357,8 @@ display: inline-block;
 
   .service_content {
     width: 95%;
-    max-width: 434px;
-    margin: 0;
+    max-width: 576px;
+    margin: 0 auto;
   }
 
   .service_content:not(:last-child) {
