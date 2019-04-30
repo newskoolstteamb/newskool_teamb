@@ -34,7 +34,7 @@ header {
   line-height: 170px;
 }
 
-.link li:hover {
+.link li a:hover {
   opacity: 0.5;
 }
 
