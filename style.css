@@ -250,25 +250,32 @@ p {
 .information_list {
  margin-bottom: 20px;
  border: solid thin;
+ height: 10%;
 }
 
 
-.information_list_left {
+.list_left {
+  width: 45%;
 display: inline-block;
+text-align: left;
+padding-left: 3%;
+float: left;
+}
+.list_left p{
+  width: auto;
+}
+.list_right p{
+  width: auto;
 }
 
 
-.information_list_right {
+.list_right {
+  width: 45%;
  display: inline-block;
- padding-left: 25%;
+ text-align: left;
+ float: right;
 }
 
-span{
-  display: inline-block;
-  width: 10em;
-  padding-left: 3%;
-  text-align: left;
-}
 
 
 @media screen and (max-width:1232px) {
@@ -300,15 +307,19 @@ span{
   }
 
 
-  .information_list span:first-child{
-    width: 7em;
+  .list_left {
+    width: 45%;
     padding-left: 3%;
     text-align: left;
   }
-  .information_list span:last-child {
+  .list_right{
+      width: 45%;
+      text-align: left;
+  }
+  .list_right p{
     font-size: 12px;
-    width: 10em;
-    text-align: left;
+    font-family:'Hiragino Kaku Gothic ProN';
+    line-height: 2.5;
   }
 }
 
